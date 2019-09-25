@@ -37,6 +37,8 @@
             this.btPingAsync = new System.Windows.Forms.Button();
             this.btTelnetSync = new System.Windows.Forms.Button();
             this.btTelnetAsync = new System.Windows.Forms.Button();
+            this.btTracerouteSync = new System.Windows.Forms.Button();
+            this.btTracerouteAsync = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // tbResults
@@ -123,11 +125,33 @@
             this.btTelnetAsync.UseVisualStyleBackColor = true;
             this.btTelnetAsync.Click += new System.EventHandler(this.btTelnetAsync_Click);
             // 
+            // btTracerouteSync
+            // 
+            this.btTracerouteSync.Location = new System.Drawing.Point(812, 141);
+            this.btTracerouteSync.Name = "btTracerouteSync";
+            this.btTracerouteSync.Size = new System.Drawing.Size(109, 23);
+            this.btTracerouteSync.TabIndex = 9;
+            this.btTracerouteSync.Text = "TraceRouteSync";
+            this.btTracerouteSync.UseVisualStyleBackColor = true;
+            this.btTracerouteSync.Click += new System.EventHandler(this.btTracerouteSync_Click);
+            // 
+            // btTracerouteAsync
+            // 
+            this.btTracerouteAsync.Location = new System.Drawing.Point(812, 170);
+            this.btTracerouteAsync.Name = "btTracerouteAsync";
+            this.btTracerouteAsync.Size = new System.Drawing.Size(109, 23);
+            this.btTracerouteAsync.TabIndex = 10;
+            this.btTracerouteAsync.Text = "TraceRouteAsync";
+            this.btTracerouteAsync.UseVisualStyleBackColor = true;
+            this.btTracerouteAsync.Click += new System.EventHandler(this.btTracerouteAsync_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(942, 334);
+            this.Controls.Add(this.btTracerouteAsync);
+            this.Controls.Add(this.btTracerouteSync);
             this.Controls.Add(this.btTelnetAsync);
             this.Controls.Add(this.btTelnetSync);
             this.Controls.Add(this.btPingAsync);
@@ -155,6 +179,8 @@
         private System.Windows.Forms.Button btPingAsync;
         private System.Windows.Forms.Button btTelnetSync;
         private System.Windows.Forms.Button btTelnetAsync;
+        private System.Windows.Forms.Button btTracerouteSync;
+        private System.Windows.Forms.Button btTracerouteAsync;
     }
 }
 
