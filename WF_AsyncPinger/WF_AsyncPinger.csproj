@@ -83,7 +83,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="unpackMe.exe" />
     <Content Include="bin\Debug\WF_AsyncPinger.exe" />
     <Content Include="bin\Debug\WF_AsyncPinger.pdb" />
   </ItemGroup>
